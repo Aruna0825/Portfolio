@@ -1,0 +1,76 @@
+/* project section code */
+.navbar {
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+ul {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-top: -3%;
+  transition: .4s ease;
+}
+ul li a:hover {
+  color: hotpink;
+}
+
+
+.projects {
+  background-color: black;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.heading {
+  color: white;
+  font-size: 5rem;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.project-container {
+  display: flex;
+  width: 100%; 
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.project-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 150px;
+  background: url(pics/bg1.jpg);
+  border-radius: none;
+  box-shadow: 1px 8px 10px 2px var(--first-shadow);
+  overflow: hidden;
+  padding-top: 70px;
+  padding-bottom: 10px;
+}
+.project-box .A_P {
+  font-size: 15px;
+  color: #00B5E7;
+  margin-bottom: 10px;
+}
+.project-box h3 {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 45px;
+}

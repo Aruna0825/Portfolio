@@ -1,0 +1,60 @@
+/* About section code */
+.navbar {
+  width: 86%;
+  display: flex;
+  margin: auto;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: space-between; 
+  background: url(pics/bg1.jpg);
+}
+
+ul {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 16px;
+}
+ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  margin-top: -3%;
+  transition: .4s ease;
+}
+ul li a:hover {
+  color: hotpink;
+}
+
+
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: url(pics/bg1.jpg);
+  padding-top: 5px;
+}
+.heading {
+  font-size: 5rem;
+  text-align: left;
+}
+.about-content {
+  padding: 0 4rem;
+}
+.about-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+.about-content h3 {
+  font-size: 3rem;
+}
+.p1, .p2{
+  font-size: 1.5rem;
+  margin: 2rem 0 3rem;
+}
